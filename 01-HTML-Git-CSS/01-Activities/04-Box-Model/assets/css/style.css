@@ -1,0 +1,36 @@
+section {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  border: 15px solid black;
+  margin: auto;
+    /* margin will center an element on the page */
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #090088;
+  padding: 1em;
+  background-color: lightblue; 
+
+    /* I can apply styles to all of the images on 
+    the page using the img tag element */
+
+  /* TODO: Add a margin property */
+  /* TODO: Add a padding property */
+  /* TODO: Add a border property */
+}
+
+.container { 
+  display: flex; /* you need to use display 
+  flex property or inline-flex to use flexbox 
+  or manipulate items in the container */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+    /* TODO: Add a margin property */
+
+}
